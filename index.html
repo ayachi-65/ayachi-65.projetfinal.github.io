@@ -1,144 +1,180 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Mon entreprise</title>
-        <meta charset="UTF-8">
-        <meta name=" viewport"  content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style-entreprise.css">
-
-        <script>
-            function onSearch() {
-                 alert("Aucun résultat  trouver !!!");
-            }
-        </script> 
-    </head>
-    <body>
-        <div class="entete-principale">
-            <div class="titre-entete">
-                <div><em>giga Informatique<br>Montréal</em></div>
-            
-            </div>
-
-
-            <div class="menu-navigation">
-                <nav class="navigation">
-                    <a href="indexentreprise.html" class="active">Accueil</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="login.html">Login</a>
-                </nav>
-            </div>
-
-            
-
-
-
-            <div class="recherche-element">
-                <div class="recherche-contenu-rel">
-                    <input id="search-input" name="search" placeholder="Rechercher" />
-                    <button id="search-button" onclick="onSearch()"> Rechercher</button>
-                </div>
-            </div>
-
-            <div class="identifiant-navigation">
-                <nav class="navigation">
-                   <a href="blog.html">Blog</a>
-                </nav>
-            </div>
-            
-        </div>
-
-         <!--
-        <div class="">
-            <h1 class="title"> >... </h1>
-        </div>
-
-
-
-
-        
-        <div>
-        <div class="container search-block">
-    <div class="row">
-               <div class="col-12">
-            <div style="background:#fff;">
-                <div class="row">
-                    <div class="col-2 d-none d-lg-block"></div>
-                    <div class="col-10">
-                        <div class="ad ad-block ad-block-s1_top" id="ad-block-s1_top" data-type="a">
+	<head>
+		<title>Accueil</title>
+        <link rel = "icon" href ="images/icon.png" type = "image/x-icon"/>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+        <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: ital @ 0; 1 & display = swap" rel = "stylesheet"/>
+	</head>
     
-        <script data-ps=&quot;embedded-click-support.html&quot;>
-            !function(t){var n={};function r(e){if(n[e])return n[e].exports;var 
--->
-    <div>
-        <table border=1>
-            <tr>
-                <td class="c1">
-                    <div>
-                      <img  src="C:\Users\PC Sido\Desktop\tp 2 web\img\1.jpg"> 
-                      
-                      <h5>ordinateur de bureau Prix hors taxe:1350.00</h5>
+	<body>
+       <marquee OnMouseover="this.stop()" OnMouseout="this.start()"> <div id="logo"><h1><a href="https://github.com/cegep-bdeb/cegep-bdeb.github.io.git">Cliquer ici pour télécharger le Dossier de travail</a></h1></div> </marquee>
+           <script> 
+                             
+                              if (confirm( "Bonjour, Merci Madame Najoua de  votre cours! voulez vous continuer?")) {
+                                              var iMyWidth;
+                                              var iMyHeight;
+                                              iMyWidth = (window.screen.width / 2) - (75 + 150);
+                                              iMyHeight = (window.screen.height / 2) - (100 + 50);
+                                            var win2 = window.open("", "DisplayWindow", "status=no,height=250,width=350,resizable=yes,left=" + iMyWidth + ",top=" + iMyHeight + ",screenX=" + iMyWidth + ",screenY=" + iMyHeight + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");
+                                              win2.focus();
+                                        win2.document.write("<CENTER><br> Merci de saisir ton email pour recevoir toutes les nouvelles sur nos services.<hr><br>"+"<FORM NAME='Formulaire'><INPUT TYPE=text NAME='ZoneTexte' placeholder='Ton nom'>" +"<br><br><input type=email placeholder='Ton email' placeholder='Email'>"
+                                         +  "<br><br><input type=submit value=Envoyer onclick='window.close()'></FORM></CENTER>");
+                                         } else {
+                                        close();
+                                    }
+          </script>  
 
+			<!-- Header -->
+				<div id="entete">
+                    
+					<div class="container">
+							<div class="col-12">
+								<header id="header">
+                                    <img src="images/BdeB.png" / id="logoimg" width="140px" height="70">
+                                    
+                                        <!-- Recherche -->
+                                           <form action="http://www.google.ca/" target="_blank">
+                                            <div class="wrap">
+                                               <div class="search">
+                                                  <input type="text" class="searchTerm" placeholder="Recherche... !">
+                                                  <button type="submit" class="searchButton">
+                                                 <i><img src="https://img.icons8.com/ios/40/000000/search--v1.png" id="loop"/></i>
+                                                 </button>
+                                               </div>
+                                            </div>  
+                                            </form>
+                                    
+                                      <!-- reseau social -->
+                                          <div class="Reseau-s">
+                                              <ul class="soial-icons">
+                                                <li>
+                                                  <a href="https://fr-ca.facebook.com/" target="_blank" ><img src="images/face.png"  class="icons" width="10px" height="10px"></a>
+                                                </li>
+                                                <li>
+                                                  <a href="https://twitter.com/login?lang=fr" target="_blank"><img src="images/twiter.png"  class="icons" width="10px" height="10px"></a>
+                                                </li>
+                                                <li>
+                                                  <a href="https://www.linkedin.com/home" target="_blank"><img src="images/link.png"  class="icons" width="10px" height="10px"></a>
+                                                </li>
+                                                <li>
+                                                  <a href="https://www.youtube.com/" target="_blank" ><img src="images/tube.png"  class="icons" width="10px" height="10px"></a>
+                                                </li>
+                                              </ul>
+                                              
+                                            </div>
+									   
+									   <nav id="nav">
+										<a href="index.html" class="current-page-item">Accueil</a>
+				                        <a href="pages/blog.html">Blog</a>
+										<a href="pages/contact.html">Contact</a>
+										<a href="pages/login.html">Connexion</a>
+									</nav>
+								</header>
+							</div>
+						
+					</div>
+                 </div>
+           
+            <!-- Banner -->
+				<div id="banner-wrapper">
+					<div class="container">
+						<div id="video1">
+							<iframe width="450" height="320" src="https://www.youtube.com/embed/ArTkROCUSIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video11"></iframe>
+                            <div id="txt1">
+                                Les meilleures <a href="https://fr.wikipedia.org/wiki/Logiciel" target="_blank">solutions logicielles</a> ne se contentent pas simplement de vous livrer des résultats exempts d’anomalies. Elles sont au contraire élaborées avec le plus grand soin, et ce dans le but d’obtenir un produit à haute valeur ajoutée qui soit à la fois personnalisé, convivial et compatible avec tout type de plateformes. En d’autres termes, elles sont conçues, développées et testées par nos équipes.<br>
+                                Depuis plus de vingt ans, nous proposons des solutions logiciels sur mesure et de première qualité aux entreprises innovantes en quête de qualité. Au fil des ans, notre but a toujours été de créer, d’adapter, d’améliorer et de <a href="https://fr.wikipedia.org/wiki/Logiciel" target="_blank">tester des applications</a> répondant à vos besoins spécifiques.<br><br>
+                            </div>
+                               <p id="txt2">Nous sommes une société spécialisée dans <em>le développement informatique</em> et la création de logiciels spécifiques, dédiés à votre métier.
+                                Notre entreprise a fondé son savoir-faire et sa réputation dans des analyses fonctionnelles et techniques rigoureuses, basées sur votre besoin et la compréhension de votre process métier.
+                                Une équipe de programmeurs confirmés, maîtrisant parfaitement les différents <a href="https://ferpection.com/fr/testers/" target="_blank">langages de programmation,</a> s’engage à développer dans les règles de l’art votre application. À votre écoute, un chef de projet expérimenté vous accompagne en suivant, étape par étape, une méthodologie de management de projet éprouvée.</p><br>
 
-                    </div>
-               </td>
+						</div>
+					</div>
+				</div>
 
-                <td class="c2">
-                    <div>
-                      <img src="C:\Users\PC Sido\Desktop\tp 2 web\img\2.jpg">
-                   <h5>ordinateur <a href="file:///C:/Users/PC%20Sido/Desktop/tp%202%20web/img/Computer/Ordinateur%20de%20bureau%20compact%20Vostro%20_%20Dell%20Canada.html">dell</a></h5>  
-                    </div>
-                   
-                </td>
+			<!-- Main -->
+				<div id="main">
+					<div class="container">
+						<div class="row main-row">
+							<div class="col-4 col-12-medium">
 
-                <td class="c3">
-                    <div>
-                      <img src="C:\Users\PC Sido\Desktop\tp 2 web\img\3.jpg">
-                      <h5>Pc de bureau Prix H.taxe 1300.00 $</h5> 
-                    </div>
-                   
-                </td>
+                                        <section>
+                                            <h2>Bienvenue à l'entreprise Canada Logiciels!</h2>
+                                            <p id="txt2">C'est <strong>une entreprise </strong> à 150 experts du numérique qui utilisent une méthodologie fondée sur le lancement réussi de plus de 1000 projets innovants. Ensemble depuis 2000, nous développons des logiciels sur mesure de qualité qui permettent aux entreprises d’offrir des expériences numériques incroyables, de réduire les coûts opérationnels et d’accélérer la croissance. Pour plus des informations <a href="contact.html" class="butac">Contectez-nous.</a></p>.
+                                            <footer class="controls">
+                                            </footer>
+                                        </section>
 
-                   
+							             </div>
+                                         
+                                                
+                                                <section>
+                                                  <h2>Les responsables de Marketing</h2>
+                                                    <ul class="small-image-list">
+                                                        <li>
+                                                            <a href="contact.html"><img src="images/pic3.png" alt="" class="left" /></a>
+                                                            <h4>M. El ayachi Touzani</h4>
+                                                            <p>Responsable de developpement et solution informatique.</p>
+                                                        </li>
+                                                        <li>
+                                                            <a href="contact.html"><img src="images/pic1.png" alt="" class="left" /></a>
+                                                            <h4>M. Kamal Maachi</h4>
+                                                            <p>Responsable des applications mobile.</p>
+                                                        </li>
+                                                         <li>
+                                                            <a href="contact.html"><img src="images/pic2.png" alt="" class="left" /></a>
+                                                            <h4>M. Imed Agoubi</h4>
+                                                            <p>Responsable des applications mobile.</p>
+                                                        </li>
+                                                    </ul>
+                                                    <br><center>
+                                                     <h3><b><u>Une chanson.</u></b></h3>
+                                                      <audio src="mp3/m.mp3" controls style="height: 20px; margin: 2px 0 -20px 70px; padding-bottom:-10px;" ></audio></center>
+                                                   
+                                                </section>
+                                           
+                                        <hr>
+                                        <div class="clientparte">
+                                            <section >
+                                                        <div class="nosclient">
+                                                           <h2><i><b><u>Etudiant 3: </u></b></i></h2>
+                                                            <ul class="link-list">
+                                                                <li><a href="http://www.bdeb.qc.ca/" target="_blank">Kamal Maachi</a></li>
+                                                                <li><a href="https://www.w3schools.com/" target="_blank">maachikamalprof@gmail.com</a></li>
+                                                                <li><a href="https://developer.mozilla.org/" target="_blank">Réalisation:</a></li>
+                                                                <li><a href="https://www.stl.laval.qc.ca/" target="_blank">Pages Contact et Login</a></li>
 
-            </tr>
-        
-            <tr>
-                <td class="c4">
-                   <img src="C:\Users\PC Sido\Desktop\tp 2 web\img\4.jpg"> 
-                      <h5>Laptop Prix H.taxe 1560.00 $
-                        <a href="https://quebec.shopbot.ca/dell-ca/ordinateurs-portables/appareil-mobile/quebec/115/s/1737/order/3?source=campaign-adwords&gclid=CjwKCAjwh472BRAGEiwAvHVfGmYpiNpwefJii52piCuMttoHc0tl5iEav9RfQyBW9f1clF6xwW34CRoCef0QAvD_BwE">
-                        <br> voir tous les modèles dell</a>
-                    </h5>
-                </td>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="nosclient">
+                                                           <h2><i><b><u>Etudiant 2: </u></b></i></h2>
+                                                            <ul class="link-list">
+                                                                <li><a href="http://www.bdeb.qc.ca/" target="_blank">Imed Agoubi</a></li>
+                                                                <li><a href="https://www.w3schools.com/" target="_blank"> im.agoubi@gmail.com</a></li>
+                                                                <li><a href="https://developer.mozilla.org/" target="_blank">Réalisation:</a></li>
+                                                                <li><a href="https://www.stl.laval.qc.ca/" target="_blank">Page Blog</a></li>
 
-                <td class="c5">
-                   <DIV>
-                      <img src="C:\Users\PC Sido\Desktop\tp 2 web\img\5.jpg"> 
-                      <h5>Processeur H.taxe 1500.00 $<a href="https://www.amazon.ca/dp/B0756L5T93?SubscriptionId=AKIAJA54JMESX73IGPXQ&ascsubtag=576520590-6-319556137.1590002154&linkCode=osi&psc=1&tag=besdeatod038-20&th=1">
-                     <br> voir tous les modèle </h5>
-                   </DIV>
-                </td>
-                     
+                                                            </ul>
+                                                        </div>
+                                                  <div class="nosclient">
+                                                           <h2><i><b><u>Etudiant 1: </u></b></i></h2>
+                                                            <ul class="link-list">
+                                                                <li><a href="http://www.bdeb.qc.ca/" target="_blank">El ayachi Touzani</a></li>
+                                                                <li><a href="https://www.w3schools.com/" target="_blank">ayachi.touzani@gmail.com</a></li>
+                                                                <li><a href="https://developer.mozilla.org/" target="_blank">Réalisation:</a></li>
+                                                                <li><a href="https://www.stl.laval.qc.ca/" target="_blank">Page d'accueil</a></li>
 
+                                                            </ul>
+                                                        </div>
+                                                </section>
+                                        </div>
+						      </div>
 
-                <td class="c6">
-                    <DIV>
-                      <img src="C:\Users\PC Sido\Desktop\tp 2 web\img\6.jpg"> 
-                      <h5>Accessoires disponible Prix H.taxe 60.00 $</h5>
-                   </DIV>
-                </td>
-            </tr>
-          </table>  
-
-
-     </div> 
-            
-
-
-        <footer class="bas_de_page">
-            <h5> Développeurs Web: Madjid.A / Salim.B  </h5>
-            <h5>Email: madjidma@yahoo.fr  / salim@gmail.com - Tél 514-232 2217 <h5>
-        </footer>
-
-    </body>
+					</div>
+				</div>
+	</body>
 </html>
